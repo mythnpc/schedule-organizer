@@ -1,0 +1,30 @@
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.deps.json
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.runtimeconfig.json
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.runtimeconfig.dev.json
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.dll
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.csprojResolveAssemblyReference.cache
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.csproj.CoreCompileInputs.cache
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.AssemblyInfoInputs.cache
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.AssemblyInfo.cs
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.pdb
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.dll
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.pdb
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Database.dll
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Services.dll
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Database.pdb
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Services.pdb
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.deps.json
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.runtimeconfig.json
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.runtimeconfig.dev.json
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.dll
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.pdb
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Database.dll
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Services.dll
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Database.pdb
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Services.pdb
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.csprojResolveAssemblyReference.cache
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.csproj.CoreCompileInputs.cache
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.AssemblyInfoInputs.cache
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.AssemblyInfo.cs
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.dll
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer\obj\Debug\netcoreapp2.0\ScheduleOrganizer.pdb

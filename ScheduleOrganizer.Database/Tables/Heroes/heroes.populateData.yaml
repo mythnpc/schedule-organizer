@@ -1,0 +1,8 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: npc
+      changes:
+        - sql:
+            sql: "insert into heroes (id, name) values (1, 'Aisha'); 
+                  insert into heroes (id, name) values(2, 'Arch');"

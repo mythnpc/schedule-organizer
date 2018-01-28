@@ -1,0 +1,18 @@
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer.Database\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Database.deps.json
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer.Database\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Database.dll
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer.Database\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Database.pdb
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.csproj.CoreCompileInputs.cache
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.AssemblyInfoInputs.cache
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.AssemblyInfo.cs
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.dll
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.pdb
+C:\Users\Gawd\source\repos\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.csprojResolveAssemblyReference.cache
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer.Database\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Database.deps.json
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer.Database\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Database.dll
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer.Database\bin\Debug\netcoreapp2.0\ScheduleOrganizer.Database.pdb
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.csprojResolveAssemblyReference.cache
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.csproj.CoreCompileInputs.cache
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.AssemblyInfoInputs.cache
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.AssemblyInfo.cs
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.dll
+D:\GitHub Journey\ScheduleOrganizer\ScheduleOrganizer.Database\obj\Debug\netcoreapp2.0\ScheduleOrganizer.Database.pdb

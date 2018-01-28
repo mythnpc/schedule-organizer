@@ -1,0 +1,20 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: npc
+      changes:
+        - createTable:
+            tableName: heroes
+            columns:
+              - column:
+                  name: Id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: Name
+                  type: varchar(50)
+                  constraints:
+                    nullable: false

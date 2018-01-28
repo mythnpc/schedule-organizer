@@ -1,0 +1,37 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: npc
+      changes:
+        - createTable:
+            tableName: DungeonAttendance
+            columns:
+              - column:
+                  name: Id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: playerId
+                  type: int
+                  constraints:
+                    nullable: false
+              - column:
+                  name: seasonId
+                  type: int
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            baseColumnNames: playerId
+            baseTableName: DungeonAttendance
+            constraintName: fk_dungeonAttendance_player
+            referencedColumnNames: id
+            referencedTableName: player
+        - addForeignKeyConstraint:
+            baseColumnNames: seasonId
+            baseTableName: DungeonAttendance
+            constraintName: fk_dungeonAttendance_season
+            referencedColumnNames: id
+            referencedTableName: season

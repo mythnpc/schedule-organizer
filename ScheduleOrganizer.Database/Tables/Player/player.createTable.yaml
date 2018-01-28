@@ -1,0 +1,45 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: npc
+      changes:
+        - createTable:
+            tableName: Player
+            columns:
+              - column:
+                  name: Id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: Name
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: Rank
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: Availability
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: Role
+                  type: varchar(70)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: DiscordName
+                  type: varchar(70)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: CanCarry
+                  type: bit
+                  constraints:
+                    nullable: false

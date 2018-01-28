@@ -1,0 +1,8 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: npc
+      changes:
+        - sql:
+            sql: insert into [player] (name, rank, availability, role, discordname, cancarry) values ('10011010', '9001', 'When the boogyman comes out.', 'Guild Member', '@Battle Whale', 1);
+                 insert into [player] (name, rank, availability, role, discordname, cancarry) values ('Akylix', '56', 'Mostly any time', 'Guild Member', '@Long', 1);

@@ -1,0 +1,25 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: npc
+      changes:
+        - createTable:
+            tableName: Season
+            columns:
+              - column:
+                  name: Id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: Start
+                  type: Date
+                  constraints:
+                    nullable: false
+              - column:
+                  name: End
+                  type: Date
+                  constraints:
+                    nullable: false
