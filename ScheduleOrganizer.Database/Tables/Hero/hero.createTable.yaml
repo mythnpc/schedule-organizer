@@ -4,7 +4,7 @@
       author: npc
       changes:
         - createTable:
-            tableName: heroes
+            tableName: Hero
             columns:
               - column:
                   name: Id
@@ -15,6 +15,11 @@
                     nullable: false
               - column:
                   name: Name
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: Class
                   type: varchar(50)
                   constraints:
                     nullable: false

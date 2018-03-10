@@ -1,0 +1,67 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: npc
+      changes:
+        - sql:
+            sql: 
+                 SET IDENTITY_INSERT [HERO] ON;	
+                 insert into hero (id, name, class) values (101, 'Phillop', 'Knight'); 
+                 insert into hero (id, name, class) values (102, 'Clause', 'Knight');
+                 insert into hero (id, name, class) values (103, 'Demia', 'Knight');
+                 insert into hero (id, name, class) values (104, 'Morrah', 'Knight');
+                 insert into hero (id, name, class) values (105, 'Jane', 'Knight');
+                 insert into hero (id, name, class) values (106, 'Ricardo', 'Knight');
+                 insert into hero (id, name, class) values (107, 'Sonia', 'Knight'); 
+
+                 insert into hero (id, name, class) values (201, 'Kasel', 'Warrior'); 
+                 insert into hero (id, name, class) values (202, 'Gau', 'Warrior');
+                 insert into hero (id, name, class) values (203, 'Naila', 'Warrior');
+                 insert into hero (id, name, class) values (204, 'Theo', 'Warrior');
+                 insert into hero (id, name, class) values (205, 'Viska', 'Warrior');
+                 insert into hero (id, name, class) values (206, 'Priscilla', 'Warrior');
+                 insert into hero (id, name, class) values (207, 'Scarlet', 'Warrior'); 
+
+                 insert into hero (id, name, class) values (301, 'Roi', 'Assassin'); 
+                 insert into hero (id, name, class) values (302, 'Epis', 'Assassin');
+                 insert into hero (id, name, class) values (303, 'Reina', 'Assassin');
+                 insert into hero (id, name, class) values (304, 'Fluss', 'Assassin');
+                 insert into hero (id, name, class) values (305, 'Tanya', 'Assassin');
+                 insert into hero (id, name, class) values (306, 'Ezekiel', 'Assassin');
+                 insert into hero (id, name, class) values (307, 'Miriane', 'Assassin');
+                 insert into hero (id, name, class) values (308, 'Gladi', 'Assassin'); 
+                 
+                 insert into hero (id, name, class) values (401, 'Selene', 'Archer'); 
+                 insert into hero (id, name, class) values (402, 'Dimael', 'Archer');
+                 insert into hero (id, name, class) values (403, 'Luna', 'Archer');
+                 insert into hero (id, name, class) values (404, 'Arch', 'Archer');
+                 insert into hero (id, name, class) values (405, 'Yanne', 'Archer');
+                 insert into hero (id, name, class) values (406, 'Requina', 'Archer');
+
+                 insert into hero (id, name, class) values (501, 'Lakrak', 'Machinist'); 
+                 insert into hero (id, name, class) values (502, 'Miruru', 'Machinist');
+                 insert into hero (id, name, class) values (503, 'Rodina', 'Machinist');
+                 insert into hero (id, name, class) values (504, 'Annete', 'Machinist');
+                 insert into hero (id, name, class) values (505, 'Mitra', 'Machinist');
+                 insert into hero (id, name, class) values (506, 'Oddy', 'Machinist');
+                 
+                 insert into hero (id, name, class) values (601, 'Cleo', 'Wizard'); 
+                 insert into hero (id, name, class) values (602, 'Maria', 'Wizard');
+                 insert into hero (id, name, class) values (603, 'Lorraine', 'Wizard');
+                 insert into hero (id, name, class) values (604, 'Pavel', 'Wizard');
+                 insert into hero (id, name, class) values (605, 'Aisha', 'Wizard');
+                 insert into hero (id, name, class) values (606, 'Lewisia', 'Wizard');                 
+                 insert into hero (id, name, class) values (607, 'Nyx', 'Wizard');
+                 insert into hero (id, name, class) values (608, 'Ophelia', 'Wizard');
+                 insert into hero (id, name, class) values (609, 'Artemia', 'Wizard');
+
+                 insert into hero (id, name, class) values (701, 'Frey', 'Priest'); 
+                 insert into hero (id, name, class) values (702, 'Kaulah', 'Priest');
+                 insert into hero (id, name, class) values (703, 'Rephy', 'Priest');
+                 insert into hero (id, name, class) values (704, 'Baudouin', 'Priest');
+                 insert into hero (id, name, class) values (705, 'Leo', 'Priest');
+                 insert into hero (id, name, class) values (706, 'Laias', 'Priest');                 
+                 insert into hero (id, name, class) values (707, 'Cassandra', 'Priest');
+                 insert into hero (id, name, class) values (708, 'Mediana', 'Priest');
+                 insert into hero (id, name, class) values (709, 'May', 'Priest');
+                 SET IDENTITY_INSERT [hero] OFF;	

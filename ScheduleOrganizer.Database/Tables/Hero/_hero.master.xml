@@ -4,9 +4,6 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
-  <include file="Tables/Player/_player.master.xml"/>
-  <include file="Tables/Season/_season.master.xml"/>
-  <include file="Tables/DungeonAttendance/_dungeonAttendance.master.xml"/>
-  <include file="Tables/Hero/_hero.master.xml"/>
-  <include file="Tables/PlayerHero/_playerHero.master.xml"/>
+  <include file="hero.createTable.yaml"  relativeToChangelogFile="true" />
+  <include file="hero.populateData.yaml"  relativeToChangelogFile="true" />
 </databaseChangeLog>

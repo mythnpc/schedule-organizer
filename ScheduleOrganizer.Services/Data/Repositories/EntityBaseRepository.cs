@@ -22,9 +22,9 @@ namespace ScheduleOrganizer.Services.Data.Repositories
         }
         #endregion
 
-        public virtual IEnumerable<T> GetAll()
+        public virtual IQueryable<T> GetAll()
         {
-            return _context.Set<T>().AsEnumerable();
+            return _context.Set<T>();
         } 
 
         public virtual int Count()

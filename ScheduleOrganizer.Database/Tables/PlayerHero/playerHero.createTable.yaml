@@ -4,7 +4,7 @@
       author: npc
       changes:
         - createTable:
-            tableName: DungeonAttendance
+            tableName: PlayerHero
             columns:
               - column:
                   name: Id
@@ -19,43 +19,33 @@
                   constraints:
                     nullable: false
               - column:
-                  name: seasonId
+                  name: heroId
                   type: int
                   constraints:
                     nullable: false
               - column:
-                  name: fireDragonHardMode
-                  type: bit
+                  name: transcendentTier
+                  type: int
                   constraints:
                     nullable: false
               - column:
-                  name: iceDragonHardMode
-                  type: bit
-                  constraints:
-                    nullable: false
-              - column:
-                  name: poisonDragonHardMode
-                  type: bit
-                  constraints:
-                    nullable: false
-              - column:
-                  name: blackDragonHardMode
-                  type: bit
+                  name: uniqueWeaponStars
+                  type: int
                   constraints:
                     nullable: false
         - addForeignKeyConstraint:
             baseColumnNames: playerId
-            baseTableName: DungeonAttendance
-            constraintName: fk_dungeonAttendance_player
+            baseTableName: PlayerHero
+            constraintName: fk_playerHero_player
             referencedColumnNames: id
             referencedTableName: player
         - addForeignKeyConstraint:
-            baseColumnNames: seasonId
-            baseTableName: DungeonAttendance
-            constraintName: fk_dungeonAttendance_season
+            baseColumnNames: heroId
+            baseTableName: PlayerHero
+            constraintName: fk_playerHero_hero
             referencedColumnNames: id
-            referencedTableName: season
+            referencedTableName: hero
         - addUniqueConstraint:
-            columnNames: playerId, seasonId
-            constraintName: uq_dungeonAttendance_player_season
-            tableName: DungeonAttendance
+            columnNames: playerId, heroId
+            constraintName: uq_playerHero_player_hero
+            tableName: PlayerHero

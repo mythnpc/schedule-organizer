@@ -1,6 +1,7 @@
 ﻿using ScheduleOrganizer.Services.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
@@ -9,7 +10,7 @@ namespace ScheduleOrganizer.Services.Data.Abstract
     public interface IEntityBaseRepository<T> where T : class, IEntityBase, new()
     {
         IEnumerable<T> AllIncluding(params Expression<Func<T, object>>[] includeProperties);
-        IEnumerable<T> GetAll();
+        IQueryable<T> GetAll();
         int Count();
         T GetSingle(int id);
         T GetSingle(Expression<Func<T, bool>> predicate);

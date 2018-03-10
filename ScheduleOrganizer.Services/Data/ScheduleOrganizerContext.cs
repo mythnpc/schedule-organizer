@@ -17,7 +17,7 @@ namespace ScheduleOrganizer.Services.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Season>()
-                .ToTable("Schedule");
+                .ToTable("Season");
 
             modelBuilder.Entity<Season>()
                 .Property(s => s.Start)
@@ -46,6 +46,23 @@ namespace ScheduleOrganizer.Services.Data
                 .HasOne(x => x.Season)
                 .WithMany(y => y.DungeonAttendance)
                 .HasForeignKey(z => z.SeasonId);
+
+            modelBuilder.Entity<Hero>()
+                .ToTable("Hero");
+
+            modelBuilder.Entity<PlayerHero>()
+                .ToTable("PlayerHero");
+
+            modelBuilder.Entity<PlayerHero>()
+                .HasOne(x => x.Player)
+                .WithMany(y => y.PlayerHero)
+                .HasForeignKey(x => x.PlayerId);
+
+            modelBuilder.Entity<PlayerHero>()
+                .HasOne(x => x.Hero)
+                .WithMany(y => y.PlayerHero)
+                .HasForeignKey(z => z.HeroId);
+
         }
     }
 

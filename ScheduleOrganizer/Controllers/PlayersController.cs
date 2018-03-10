@@ -16,27 +16,47 @@ namespace ScheduleOrganizer.Controllers
     public class PlayersController: Controller
     {
         public IPlayerRepository _playerRepository;
-        public ISeasonRepository _seasonRepository;
-        public IDungeonAttendanceRepository _dungeonAttendanceRepository;
+        public IHeroRepository _heroRepository;
 
-        public PlayersController(IPlayerRepository playerRepository, ISeasonRepository seasonRepository, IDungeonAttendanceRepository dungeonAttendanceRepository)
+        public PlayersController(IPlayerRepository playerRepository, IHeroRepository heroRepository)
         {
             _playerRepository = playerRepository;
-            _seasonRepository = seasonRepository;
-            _dungeonAttendanceRepository = dungeonAttendanceRepository;
+            _heroRepository = heroRepository;
         }
 
         [HttpGet]
         public IActionResult Get()
         {
-            var _players = _playerRepository
-                    .AllIncluding(x => x.DungeonAttendance)
+            var players = _playerRepository
+                    .GetAll()
                     .OrderBy(x => x.Id)
                     .AsQueryable()
                     .ProjectTo<PlayerViewModel>()
                     .ToList();
 
-            return new OkObjectResult(_players);
+            return new OkObjectResult(players);
+        }
+
+        [HttpGet]
+        [Route("{id}")]
+        public IActionResult FindByName(int id)
+        {
+            var player = _playerRepository
+                .AllIncluding(x => x.PlayerHero)
+                .OrderBy(x => x.Id)
+                .AsQueryable()
+                .Where(x => x.Id == id)
+                .FirstOrDefault();
+
+
+            var playerHero = from p in player.PlayerHero
+                             join ph in _heroRepository.GetAll() on p.HeroId equals ph.Id
+                             select p;
+
+            player.PlayerHero = playerHero.ToList();
+
+            var test = Mapper.Map<PlayerDetailViewModel>(player);
+            return new OkObjectResult(test);
         }
     }
 }

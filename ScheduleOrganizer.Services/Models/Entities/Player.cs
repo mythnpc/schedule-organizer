@@ -9,6 +9,7 @@ namespace ScheduleOrganizer.Services.Models.Entities
         public Player()
         {
             DungeonAttendance = new List<DungeonAttendance>();
+            PlayerHero = new List<PlayerHero>();
         }
 
         public int Id { get; set; }
@@ -19,6 +20,6 @@ namespace ScheduleOrganizer.Services.Models.Entities
         public string DiscordName { get; set; }
         public Boolean CanCarry { get; set; }
         public ICollection<DungeonAttendance> DungeonAttendance { get; set; }
-
+        public ICollection<PlayerHero> PlayerHero { get; set; }
     }
 }

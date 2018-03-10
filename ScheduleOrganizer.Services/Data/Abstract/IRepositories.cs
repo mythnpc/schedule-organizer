@@ -8,5 +8,7 @@ namespace ScheduleOrganizer.Services.Data.Abstract
     public interface IPlayerRepository : IEntityBaseRepository<Player> { }
     public interface ISeasonRepository : IEntityBaseRepository<Season> { }
     public interface IDungeonAttendanceRepository : IEntityBaseRepository<DungeonAttendance> { }
+    public interface IHeroRepository : IEntityBaseRepository<Hero> { }
+    public interface IPlayerHeroRepository : IEntityBaseRepository<PlayerHero> { }
 
 }
