@@ -23,3 +23,8 @@
                   type: varchar(50)
                   constraints:
                     nullable: false
+              - column:
+                  name: UniqueWeapon
+                  type: varchar(50)
+                  constraints:
+                    nullable: false

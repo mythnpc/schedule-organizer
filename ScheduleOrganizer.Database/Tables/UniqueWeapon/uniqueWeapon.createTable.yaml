@@ -1,0 +1,51 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: npc
+      changes:
+        - createTable:
+            tableName: UniqueWeapon
+            columns:
+              - column:
+                  name: Id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: heroId
+                  type: int
+                  constraints:
+                    nullable: false
+              - column:
+                  name: seasonId
+                  type: int
+                  constraints:
+                    nullable: false
+              - column:
+                  name: fireDragonHardMode
+                  type: bit
+                  constraints:
+                    nullable: false
+              - column:
+                  name: iceDragonHardMode
+                  type: bit
+                  constraints:
+                    nullable: false
+              - column:
+                  name: poisonDragonHardMode
+                  type: bit
+                  constraints:
+                    nullable: false
+              - column:
+                  name: blackDragonHardMode
+                  type: bit
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            baseColumnNames: heroId
+            baseTableName: UniqueWeapon
+            constraintName: fk_uniqueWeapon_hero
+            referencedColumnNames: id
+            referencedTableName: hero

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ScheduleOrganizer.Services.Data.Abstract;
+using ScheduleOrganizer.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;

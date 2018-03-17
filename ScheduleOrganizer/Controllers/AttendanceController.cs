@@ -72,7 +72,7 @@ namespace ScheduleOrganizer.Controllers
                 _attendanceDb.PoisonDragonHardMode = dungeonAttendanceViewModel.PoisonDragonHardMode;
                 _attendanceDb.BlackDragonHardMode = dungeonAttendanceViewModel.BlackDragonHardMode;
 
-                _dungeonAttendanceRepository.Commit();
+                _playerRepository.Commit();
             }
 
             dungeonAttendanceViewModel = Mapper.Map<DungeonAttendance, DungeonAttendanceViewModel>(_attendanceDb);
